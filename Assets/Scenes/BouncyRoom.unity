@@ -840,6 +840,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4951256575367313311, guid: 71b938d1edfc1824c83c749f4f756572, type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951256575367313311, guid: 71b938d1edfc1824c83c749f4f756572, type: 3}
       propertyPath: lengthInSec
       value: 0.5
       objectReference: {fileID: 0}
