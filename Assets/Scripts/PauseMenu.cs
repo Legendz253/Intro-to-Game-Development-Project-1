@@ -23,7 +23,7 @@ public class PauseMenu : MonoBehaviour
             Time.timeScale = 1;
 
             pauseUI.SetActive(false);
-            isPaused = false;
+            //isPaused = false;
         }
         else
         {
@@ -31,12 +31,12 @@ public class PauseMenu : MonoBehaviour
             Time.timeScale = 0;
             
             pauseUI.SetActive(true);
-            isPaused = true;
+            //isPaused = true;
 
         }
         
         //Changes the isPaused setting (true to false or vice versa) on occasion of pausing.
-        //isPaused = !isPaused;
+        isPaused = !isPaused;
     }
     public void Quit()
     {
